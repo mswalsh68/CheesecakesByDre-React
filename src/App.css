@@ -14,7 +14,7 @@ html{
 body{
   display: grid;
   background-color: #120a05c7;
-  background-image: url('images/fuzzy-dark-gray-wood-55aqt8ab0bt35n27.jpg');
+  background-image: url('../public/images/fuzzy-dark-gray-wood-55aqt8ab0bt35n27.jpg');
   height: 100vh;
 }
 
