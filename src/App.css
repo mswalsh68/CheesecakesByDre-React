@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@200&display=swap');
+
+
+html{
+  height: 100%;
+}
+
+*, *::before, *::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: grid;
+  background-color: #120a05c7;
+  background-image: url('images/fuzzy-dark-gray-wood-55aqt8ab0bt35n27.jpg');
+  height: 100vh;
+}
+
+.navbar{
+  height: auto;
+  background-color: white;
+}
+
+.navbar-expand-md{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar a {
+  color: #076182;
+  text-decoration: none;
+  font-weight:bold;
+}
+
+.navbar a:hover,
+.navbar a:focus {
+  background: #076182;
+  color: white;
+  font-weight: 500;
+}
+
+.nav-item{
+  display:inline-flex;
+  justify-content: flex-end;
+}
+
+.navbar-collapse .nav-item{
+  display: block;
+  gap: 1rem;
+}
+
+.navbar-toggler{
+  color: #076182;
+}
+
+.navbar-toggler-icon{
+  display: grid;
+  align-items: flex-end;
+}
+
+#nav{
+  justify-content: flex-end;
+}
+
+.navbar-collapse{
+  justify-content: flex-end;
+}
+
+
+.headline{
+  display: grid;
+  text-align: center;
+  overflow-wrap: normal;
+  overflow:visible;
+  padding: 1rem;
+  background-color: #076182;
+  color: #e0bc39;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+}
+
+.footer{
+  display: grid;
+  width: 100%;
+  padding: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #076182;
+  color: #e0bc39;
+  margin-top: auto;
+}
+
+.rights{
+  grid-column: 1/2;
+  display: grid;
+  text-align: center;
+}
+
+.footer a{
+  grid-column: 2/3;
+  display: grid;
+  text-align: center;
+  color: #e0bc39;
+
+}
+
+.creator{
+  grid-column: 3/4;
+  display: grid;
+  text-align: center;
+}
+
+.cheesecakeWrapper{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin: 5rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 225px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 13px;
+  padding-bottom: 20px;
+  background-color: white;
+  position: relative;
+}
+
+.cardImg {
+  width: 100%;
+  height: 17em;
+  align-self: center;
+  border-radius: 5px;
+  object-fit: contain;
+}
+
+.cardInfo {
+  display: flex;
+  align-items: center;
+}
+
+
+
+/* Only on Order Page */
+
+
+
+.orderForm{
+  display: grid;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  gap: 1rem;
+  justify-content: center;
+  background-color: #6cabc2d0;
+  border-radius: 20px;
+  padding: 1rem;
+  font-style: italic;
+  font-weight: bolder;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.label{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+  text-decoration: underline;
+}
+
+.send{
+  display: grid;
+  place-items: center;
+  width: max-content;
+  font-size: small;
+  padding: .5rem;
+  border-radius: 50px;
+  justify-self: center;
+  overflow-wrap: normal;
+  overflow:visible;
+  background-color: black;
+  color:#e0bc39;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sampleWrapper{
+  display: grid;
+  place-items: center;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  gap: 2rem;
+}
+
+.sampleWrapper > img{
+  width: 75%;
+  border-radius: 20px;
+
+}
+
+/* Only on About Page */
+
+.about{
+  height: 100vh;
+  padding: 2rem;
+  display: grid;
+}
+
+.content{
+  color: #e0bc39;
+  font-size: xx-large;
+  text-align: center;
+}
+
+.content a{
+  color: #e0bc39;
+}
+
+@media screen and (min-width: 700px){
+  .wrapper{
+      grid-template-columns: repeat(2, 1fr);
+      margin: 6rem;
+      gap: 6rem;
+  }
+
+}
+
+
+@media screen and (min-width: 925px){
+  .wrapper{
+      grid-template-columns: repeat(3, 1fr);
+  }
+
+  .formWrapper{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      margin-left: 10rem;
+      margin-right: 10rem;
+  }
+
+  .orderForm{
+      display: grid;
+  }
+
+  
+
+}
