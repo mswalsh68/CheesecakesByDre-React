@@ -18,7 +18,7 @@ export default function Cheesecakes() {
     <div>
 
 <div className="headline">
-            <h1><b>Featured </b></h1>
+            <h1><b>Featured Cheesecakes</b></h1>
         </div>
 
     <div className='cheesecakeWrapper'>
