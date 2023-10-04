@@ -33,7 +33,7 @@ export default function App() {
                             <Link to='/Order' class="nav-link">Order</Link>
                         </li>
                         <li class="nav-item">
-                            <Link to='/About' class="nav-link">About Us</Link>
+                            <Link to='/About' class="nav-link">About</Link>
                         </li>
                     </ul>
                 </div>  
