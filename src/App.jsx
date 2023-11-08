@@ -18,22 +18,22 @@ export default function App() {
   return (
 
     <div>
-          <div class="navbar navbar-expand-md">
-            <div class="container">  
-                <Link to='/' class="navbar-brand"><img src={Logo} /></Link>        
-                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-label="Expand Navigation">
-                        <span class="navbar-toggler-icon"></span>
+          <div className="navbar navbar-expand-md">
+            <div className="container">  
+                <Link to='/' className="navbar-brand"><img src={Logo} /></Link>        
+                <button className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-label="Expand Navigation">
+                        <span className="navbar-toggler-icon"></span>
                 </button>        
-                <div class="collapse navbar-collapse" id="nav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <Link to='/' class="nav-link">Home</Link>
+                <div className="collapse navbar-collapse" id="nav">
+                    <ul className="navbar-nav">
+                        <li className="nav-item">
+                            <Link to='/' className="nav-link">Home</Link>
                         </li>
-                        <li class="nav-item">
-                            <Link to='/Order' class="nav-link">Order</Link>
+                        <li className="nav-item">
+                            <Link to='/Order' className="nav-link">Order</Link>
                         </li>
-                        <li class="nav-item">
-                            <Link to='/About' class="nav-link">About</Link>
+                        <li className="nav-item">
+                            <Link to='/About' className="nav-link">About</Link>
                         </li>
                     </ul>
                 </div>  
