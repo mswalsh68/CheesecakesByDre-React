@@ -14,8 +14,29 @@ html{
 body{
   display: grid;
   background-color: #120a05c7;
-  background-image: url('../public/images/fuzzy-dark-gray-wood-55aqt8ab0bt35n27.jpg');
-  height: 100vh;
+  background-image: url('./images/fuzzy-dark-gray-wood-55aqt8ab0bt35n27.jpg');
+  min-height: 100vh;
+}
+
+.nav{
+  display: grid;
+  background-color: white;
+}
+
+.IG{
+  display: flex;
+  gap: 1rem;
+  margin-left: auto;
+  padding: .5rem;
+  color: #076182;
+
+}
+
+.IG-link{
+  padding: 1rem;
+  background-image: url('./images/IG-Logo.png');
+  background-repeat: no-repeat;
+  background-size: 1.5rem;
 }
 
 .navbar{
@@ -129,26 +150,41 @@ body{
   padding-bottom: 20px;
   background-color: white;
   position: relative;
+  text-align: center;
 }
 
 .cardImg {
   width: 100%;
-  height: 17em;
+  height: 10em;
   align-self: center;
   border-radius: 5px;
-  object-fit: contain;
+  object-fit: cover;
 }
 
-.cardInfo {
-  display: flex;
-  align-items: center;
-}
 
 
 
 /* Only on Order Page */
 
+.orderContainer{
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 50%;
+  place-items: center;
+  justify-content: center;
+}
 
+.orderImageContainer{
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.orderImage{
+  height: 20rem;
+  border-radius: 10%;
+  object-fit: scale-down;
+  max-width: 100%;
+}
 
 .orderForm{
   display: grid;
@@ -164,7 +200,6 @@ body{
   font-style: italic;
   font-weight: bolder;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
-
 }
 
 .label{
@@ -274,6 +309,22 @@ body{
   color: white;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.V-DayContainer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+  gap: 1rem;
+}
+
+.V-Dayimg{
+  height: 20rem;
+  border-radius: 10%;
+  object-fit:scale-down;
+  max-width: 80%;
+}
+
 
 @media screen and (min-width: 700px){
   .wrapper{
