@@ -34,9 +34,9 @@ export default function Navigation() {
                         <Link to='/Order'>Order</Link>
                     </Nav.Link>
 
-                    <Nav.Link>
+                    {/* <Nav.Link>
                         <Link to='/About'>About</Link>
-                    </Nav.Link>
+                    </Nav.Link> */}
                 </Nav>
             </Navbar.Collapse>
     </div>
