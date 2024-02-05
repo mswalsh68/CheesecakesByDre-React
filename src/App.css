@@ -169,14 +169,12 @@ body{
 .orderContainer{
   display: flex;
   flex-wrap: wrap;
-  flex-basis: 50%;
   place-items: center;
   justify-content: center;
 }
 
 .orderImageContainer{
-  padding: 2rem;
-  gap: 1rem;
+  padding: 1rem;
 }
 
 .orderImage{

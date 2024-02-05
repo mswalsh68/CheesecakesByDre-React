@@ -1,6 +1,7 @@
 import '../App.css'
 import ContactForm from '../Components/ContactForm'
 import behindScenes from '../images/behind-the-scenes.jpeg'
+import behindScenes2 from '../images/IMG_6311.jpg'
 
 
 
@@ -17,10 +18,14 @@ export default function Order() {
     
         <div className="orderContainer">
 
-                <ContactForm />
+        <ContactForm />
 
         <div className="orderImageContainer">
             <img className="orderImage" src={behindScenes}/>
+        </div>
+
+        <div className="orderImageContainer">
+            <img className="orderImage" src={behindScenes2}/>
         </div>
      
 
