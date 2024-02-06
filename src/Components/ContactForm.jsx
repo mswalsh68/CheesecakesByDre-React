@@ -40,15 +40,16 @@ export default function ContactForm() {
                 />
                 <input className='inputs'
                     type="text"
-                    placeholder="What would you like to order?"
-                    name="company"
+                    placeholder="Phone Number"
+                    name="phone"
                 />
              </div>
              <div className='inputs2'>
                     <textarea className='inputs' 
                         cols="30" 
                         rows="10"
-                        placeholder="Anything else?"
+                        placeholder="What would you like to order?"
+                        name = "comments"
                     />
 
             </div>
