@@ -317,27 +317,18 @@ body{
 }
 
 .V-Dayimg{
-  height: 20rem;
+  height: 10rem;
   border-radius: 10%;
   object-fit:scale-down;
-  max-width: 80%;
+  max-width: 100%;
 }
 
 
 @media screen and (min-width: 700px){
-  .wrapper{
-      grid-template-columns: repeat(2, 1fr);
-      margin: 6rem;
-      gap: 6rem;
+
+  .V-Dayimg{
+    height: 20rem;
   }
 
 }
 
-
-@media screen and (min-width: 925px){
-  .wrapper{
-      grid-template-columns: repeat(3, 1fr);
-  }
-  
-
-}
