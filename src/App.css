@@ -14,7 +14,7 @@ html{
 body{
   display: grid;
   background-color: #120a05c7;
-  background-image: url('/images/fuzzy-dark-gray-wood-55aqt8ab0bt35n27.jpg');
+  background-image: url('/public/images/fuzzy-dark-gray-wood-55aqt8ab0bt35n27.jpg');
   min-height: 100vh;
 }
 
@@ -34,7 +34,7 @@ body{
 
 .IG-link{
   padding: 1rem;
-  background-image: url('/images/IG-Logo.png');
+  background-image: url('/public/images/IG-Logo.png');
   background-repeat: no-repeat;
   background-size: 1.5rem;
 }
