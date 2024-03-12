@@ -1,7 +1,7 @@
 import '../App.css'
 import ContactForm from '../Components/ContactForm'
-import behindScenes from '../images/behind-the-scenes.jpeg'
-import behindScenes2 from '../images/IMG_6311.jpg'
+import behindScenes from '/images/behind-the-scenes.jpeg'
+import behindScenes2 from '/images/IMG_6311.jpg'
 
 
 

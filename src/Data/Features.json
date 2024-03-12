@@ -6,7 +6,7 @@
         "smallprice": 20,
         "largeprice": 30,
         "sliceprice": 4,
-        "coverImg":  "src/images/ValentinesDay-Mexican-Hot-Chocolate.jpg"
+        "coverImg":  "/images/ValentinesDay-Mexican-Hot-Chocolate.jpg"
     },
     {
         "id": 222,
@@ -15,7 +15,7 @@
         "smallprice": 20,
         "largeprice": 30,
         "sliceprice": 4,
-        "coverImg":  "src/images/ValentinesDay-Strawberry2.jpg"
+        "coverImg":  "/images/ValentinesDay-Strawberry2.jpg"
     },
     {
         "id": 333,
@@ -24,6 +24,6 @@
         "smallprice": 20,
         "largeprice": 30,
         "sliceprice": 4,
-        "coverImg":  "src/images/ValentinesDay-WhiteChocolateRaspberry.jpg"
+        "coverImg":  "/images/ValentinesDay-WhiteChocolateRaspberry.jpg"
     }
 ]    

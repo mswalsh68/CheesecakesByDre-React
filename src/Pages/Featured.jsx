@@ -1,8 +1,8 @@
 import Card from '../Components/Card'
 import Features from '../Data/Features.json'
 import '../App.css'
-import ValentinesDayCakes from '../images/ValentinesDay-Strawberry-WCRasberry-MexicanHC2.jpg'
-import Strawberries from '../images/ValentinesDay-Strawberries.jpg'
+import ValentinesDayCakes from '/images/ValentinesDay-Strawberry-WCRasberry-MexicanHC2.jpg'
+import Strawberries from '/images/ValentinesDay-Strawberries.jpg'
 
 
 

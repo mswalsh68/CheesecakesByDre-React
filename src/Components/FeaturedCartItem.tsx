@@ -27,12 +27,12 @@ export default function FeaturedCartItem({id, quantity}:CartItemProps) {
           <div>
             {featuredItem.title}{" "}
             {quantity > 1 && (
-              <span className="text-muted" style={{ fontSize: ".65rem" }}>
+              <span style={{ fontSize: ".65rem" }}>
                 x{quantity}
               </span>
             )}
           </div>
-          <div className="text-muted" style={{ fontSize: ".75rem" }}>
+          <div style={{ fontSize: ".75rem" }}>
             {FormatCurrency(featuredItem.smallprice)}
           </div>
         </div>

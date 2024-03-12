@@ -6,7 +6,6 @@ import CartItem from './CartItem'
 import FeaturedCartItem from './FeaturedCartItem'
 import storeItems from "../Data/Data.json"
 import featuredItems from "../Data/Features.json"
-import { Link } from 'react-router-dom'
 
 type ShoppingCartProps = {
   isOpen: boolean

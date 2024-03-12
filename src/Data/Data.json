@@ -6,7 +6,7 @@
         "smallprice": 20,
         "largeprice": 30,
         "sliceprice": 4,
-        "coverImg":  "src/images/LemonBlueberry-full.jpeg"
+        "coverImg":  "/images/LemonBlueberry-full.jpeg"
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "smallprice": 21,
         "largeprice": 31,
         "sliceprice": 5,
-        "coverImg":  "src/images/NY-Full.jpeg"
+        "coverImg":  "/images/NY-Full.jpeg"
     },
     {
         "id": 3,
@@ -24,7 +24,7 @@
         "smallprice": 22,
         "largeprice": 32,
         "sliceprice": 6,
-        "coverImg":  "src/images/Oreo-full.jpeg"
+        "coverImg":  "/images/Oreo-full.jpeg"
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@
         "smallprice": 23,
         "largeprice": 33,
         "sliceprice": 7,
-        "coverImg":  "src/images/salted-caramel-kiss.png"
+        "coverImg":  "/images/salted-caramel-kiss.png"
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "smallprice": 24,
         "largeprice": 34,
         "sliceprice": 8,
-        "coverImg":  "src/images/mexican_hot_chocolate.png"
+        "coverImg":  "/images/mexican_hot_chocolate.png"
     },
     {
         "id": 6,
@@ -51,7 +51,7 @@
         "smallprice": 25,
         "largeprice": 35,
         "sliceprice": 9,
-        "coverImg":  "src/images/lemon-meringue.png"
+        "coverImg":  "/images/lemon-meringue.png"
     },
     {
         "id": 7,
@@ -60,6 +60,6 @@
         "smallprice": 26,
         "largeprice": 36,
         "sliceprice": 10,
-        "coverImg":  "src/images/mango-key-lime.png"
+        "coverImg":  "/images/mango-key-lime.png"
     }
 ]

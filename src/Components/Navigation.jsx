@@ -1,5 +1,5 @@
 import '../App.css'
-import Logo from '../images/Cheesecakes by Dre Main Logo.png'
+import Logo from '/images/Cheesecakes by Dre Main Logo.png'
 import {Link} from 'react-router-dom'
 import { Nav, Navbar, Button } from 'react-bootstrap'
 import { useShoppingCart } from '../Context/ShoppingCartContext'

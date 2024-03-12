@@ -34,7 +34,7 @@ body{
 
 .IG-link{
   padding: 1rem;
-  background-image: url('./images/IG-Logo.png');
+  background-image: url('/images/IG-Logo.png');
   background-repeat: no-repeat;
   background-size: 1.5rem;
 }
@@ -339,7 +339,9 @@ body{
   color: #e0bc39;
   margin: 3rem;
   padding: 3rem;
+  gap: 2rem;
 }
+
 
 
 @media screen and (min-width: 700px){
