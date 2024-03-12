@@ -21,11 +21,11 @@ export default function FeaturedCartItem({id, quantity}:CartItemProps) {
     return (
       <Stack direction='horizontal' gap={4} className='d-flex align-items-center'>
           <img src={featuredItem.coverImg}
-              style={{width: "125px" , height: "75px" , objectFit: "cover"}} 
+              style={{width: "125px" , height: "125px" , objectFit: "cover"}} 
           />
           <div className="me-auto">
           <div>
-            {featuredItem.title}{" "}
+          <b>{featuredItem.title}{" "}</b>
             {quantity > 1 && (
               <span style={{ fontSize: ".65rem" }}>
                 x{quantity}

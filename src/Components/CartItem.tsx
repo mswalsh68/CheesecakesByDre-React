@@ -19,11 +19,11 @@ export default function CartItem({id, quantity}:CartItemProps) {
   return (
     <Stack direction='horizontal' gap={4} className='d-flex align-items-center'>
         <img src={item.coverImg}
-            style={{width: "125px" , height: "75px" , objectFit: "cover"}} 
+            style={{width: "125px" , height: "125px" , objectFit: "cover"}} 
         />
         <div className="me-auto">
         <div>
-          {item.title}{" "}
+          <b>{item.title}{" "}</b>
           {quantity > 1 && (
             <span  style={{ fontSize: ".65rem" }}>
               x{quantity}
