@@ -2,7 +2,7 @@ import '../App.css'
 
 export default function ThankYou() {
   return (
-    <div>
+    <div style={{minHeight: "100vh"}}>
       
         <div className="headline">
             <h1><b>Cheesecake Menu</b></h1>

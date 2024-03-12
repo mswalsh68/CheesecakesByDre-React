@@ -15,7 +15,7 @@ export default function Cheesecakes() {
 
         return (
 
-          <div>
+          <div style={{minHeight: "100vh"}}>
 
 
           <div className="headline">

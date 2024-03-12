@@ -10,7 +10,7 @@ export default function Contact() {
   
   return (
 
-    <div>
+    <div style={{minHeight: "100vh"}}>
         <div className="headline">
             <h1><b>Contact Us</b></h1>
         </div>
