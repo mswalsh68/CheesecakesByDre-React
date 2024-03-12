@@ -39,6 +39,16 @@ body{
   background-size: 1.5rem;
 }
 
+.cart{
+  display: flex;
+  justify-content: flex-end;
+  margin: 1rem;
+}
+
+.Button-Card{
+  background-color: #076182;
+}
+
 .navbar{
   height: auto;
   background-color: white;
@@ -321,6 +331,14 @@ body{
   border-radius: 10%;
   object-fit:scale-down;
   max-width: 100%;
+}
+
+.shopping-cart{
+  display: grid;
+  justify-content: space-around;
+  color: #e0bc39;
+  margin: 3rem;
+  padding: 3rem;
 }
 
 

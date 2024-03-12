@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "title": "Lemon Blueberry",
+        "description": "Lemon and Blueberry cheesecake with a Lemon curd on top and fresh blueberries",
+        "smallprice": 20,
+        "largeprice": 30,
+        "sliceprice": 4,
+        "coverImg":  "src/images/LemonBlueberry-full.jpeg"
+    },
+    {
+        "id": 2,
+        "title": "New York w/ Strawberry",
+        "description": "Decadent traditional New York Cheesecake with fresh strawberry topping",
+        "smallprice": 21,
+        "largeprice": 31,
+        "sliceprice": 5,
+        "coverImg":  "src/images/NY-Full.jpeg"
+    },
+    {
+        "id": 3,
+        "title": "Oreo",
+        "description": "Explosion of Oreo in every bite in this creamy Oreo Cheesecake",
+        "smallprice": 22,
+        "largeprice": 32,
+        "sliceprice": 6,
+        "coverImg":  "src/images/Oreo-full.jpeg"
+    },
+    {
+        "id": 4,
+        "title": "Salted Caramel Kiss",
+        "description": "Salted Caramel Cheesecake with Hershey Kisses on top",
+        "smallprice": 23,
+        "largeprice": 33,
+        "sliceprice": 7,
+        "coverImg":  "src/images/salted-caramel-kiss.png"
+    },
+    {
+        "id": 5,
+        "title": "Mexican Hot Chocolate",
+        "description": "Traditional Mexican Hot Chocolate Cheesecake",
+        "smallprice": 24,
+        "largeprice": 34,
+        "sliceprice": 8,
+        "coverImg":  "src/images/mexican_hot_chocolate.png"
+    },
+    {
+        "id": 6,
+        "title": "Lemon Meringue",
+        "description": "Lemon Cheesecake with a toasted meringue topping",
+        "smallprice": 25,
+        "largeprice": 35,
+        "sliceprice": 9,
+        "coverImg":  "src/images/lemon-meringue.png"
+    },
+    {
+        "id": 7,
+        "title": "Mango Key Lime",
+        "description": "Traditional Key Lime Pie with a mango twist",
+        "smallprice": 26,
+        "largeprice": 36,
+        "sliceprice": 10,
+        "coverImg":  "src/images/mango-key-lime.png"
+    }
+]

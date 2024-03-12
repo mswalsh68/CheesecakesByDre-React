@@ -1,7 +1,7 @@
 import Card from '../Components/Card'
-import Data from '../Data/ValentinesDay'
+import Features from '../Data/Features.json'
 import '../App.css'
-import ValentinesDay from '../images/ValentinesDay-Strawberry-WCRasberry-MexicanHC2.jpg'
+import ValentinesDayCakes from '../images/ValentinesDay-Strawberry-WCRasberry-MexicanHC2.jpg'
 import Strawberries from '../images/ValentinesDay-Strawberries.jpg'
 
 
@@ -9,11 +9,8 @@ import Strawberries from '../images/ValentinesDay-Strawberries.jpg'
 export default function Cheesecakes() {
 
 
-    const cardElements = Data.map(item => {
-      return <Card  
-      key={item.id}
-      item={item}
-      />
+  const cardElements = Features.map(item => {
+    return <Card key={item.id} {...item}/>
     })
 
         return (
@@ -26,7 +23,7 @@ export default function Cheesecakes() {
           </div>
 
             <div className='V-DayContainer'>
-              <img className="V-Dayimg" src={ValentinesDay}/>
+              <img className="V-Dayimg" src={ValentinesDayCakes}/>
               <img className="V-Dayimg" src={Strawberries}/>
             </div>
 

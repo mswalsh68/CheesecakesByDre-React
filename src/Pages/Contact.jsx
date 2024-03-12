@@ -5,14 +5,14 @@ import behindScenes2 from '../images/IMG_6311.jpg'
 
 
 
-export default function Order() {
+export default function Contact() {
 
   
   return (
 
     <div>
         <div className="headline">
-            <h1><b>Order Online</b></h1>
+            <h1><b>Contact Us</b></h1>
         </div>
 
     

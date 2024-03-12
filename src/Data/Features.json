@@ -1,0 +1,29 @@
+[
+    {
+        "id": 111,
+        "title": "Valentines Day Heart Shaped Mexican Hot Chocolate",
+        "description": "Traditional Mexican Hot Chocolate Cheesecake",
+        "smallprice": 20,
+        "largeprice": 30,
+        "sliceprice": 4,
+        "coverImg":  "src/images/ValentinesDay-Mexican-Hot-Chocolate.jpg"
+    },
+    {
+        "id": 222,
+        "title": "Valentines Day Heart Shaped NY Cheesecake with Strawberry Topping",
+        "description": "Decadent traditional New York Cheesecake with fresh strawberry topping",
+        "smallprice": 20,
+        "largeprice": 30,
+        "sliceprice": 4,
+        "coverImg":  "src/images/ValentinesDay-Strawberry2.jpg"
+    },
+    {
+        "id": 333,
+        "title": "Valentines Day Heart Shaped White Chocolate Raspberry",
+        "description": "Rich white chocolate with fresh raspberry marbled throughout on a homemade chocolate crust",
+        "smallprice": 20,
+        "largeprice": 30,
+        "sliceprice": 4,
+        "coverImg":  "src/images/ValentinesDay-WhiteChocolateRaspberry.jpg"
+    }
+]    
