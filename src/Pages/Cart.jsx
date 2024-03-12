@@ -1,4 +1,3 @@
-import { Stack } from 'react-bootstrap'
 import { useShoppingCart } from '../Context/ShoppingCartContext'
 import { FormatCurrency } from '../Utilities/FormatCurrenty'
 import storeItems from "../Data/Data.json"
@@ -12,7 +11,7 @@ export default function Cart() {
   const {cartItems} = useShoppingCart()
 
   return (
-    <div>
+    <div style={{minHeight: "100vh"}}>
         <div className="headline">
             <h1><b>Cart</b></h1>
         </div>
