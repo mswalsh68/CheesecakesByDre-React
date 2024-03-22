@@ -12,11 +12,6 @@ import Cart from './Pages/Cart'
 import { ShoppingCartProvider } from './Context/ShoppingCartContext'
 
 
-
-
-
-
-
 export default function App() {
 
 
